@@ -1,0 +1,31 @@
+{
+  "name": "polyglot/contract-template-resolver",
+  "type": "library",
+  "description": "PHP Polyglot template resolver interface",
+  "keywords": ["polyglot", "template-resolver"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Dudarev",
+      "email": "ivan@ddrv.ru",
+      "homepage": "https://ddrv.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Polyglot\\Contract\\TemplateResolver\\": "src/"
+    }
+  },
+  "funding": [
+    {
+      "type": "other",
+      "url": "https://donation.ddrv.ru"
+    }
+  ]
+}
